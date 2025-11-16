@@ -1,0 +1,329 @@
+{
+  "hero": {
+    "title": "Service Handphone Terpercaya di Bali",
+    "subtitle": "Perbaikan cepat, berkualitas, dan harga terjangkau untuk semua merek handphone",
+    "cta": "Hubungi Kami Sekarang",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&q=80"
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Kami menyediakan berbagai layanan perbaikan handphone profesional",
+    "items": [
+      {
+        "title": "Perbaikan Layar",
+        "description": "Ganti layar rusak dengan cepat dan berkualitas",
+        "icon": "📱"
+      },
+      {
+        "title": "Perbaikan Baterai",
+        "description": "Ganti baterai yang sudah tidak optimal",
+        "icon": "🔋"
+      },
+      {
+        "title": "Perbaikan Software",
+        "description": "Update, reset, dan perbaikan masalah software",
+        "icon": "💻"
+      },
+      {
+        "title": "Perbaikan Charging Port",
+        "description": "Perbaikan port charging yang rusak",
+        "icon": "🔌"
+      },
+      {
+        "title": "Perbaikan Kamera",
+        "description": "Perbaikan dan ganti kamera yang bermasalah",
+        "icon": "📷"
+      },
+      {
+        "title": "Perbaikan Motherboard",
+        "description": "Perbaikan komponen utama handphone",
+        "icon": "🔧"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Pencapaian Kami",
+    "subtitle": "Angka yang membuktikan kualitas layanan kami",
+    "items": [
+      {
+        "number": "500+",
+        "label": "Handphone Diperbaiki",
+        "icon": "📱"
+      },
+      {
+        "number": "98%",
+        "label": "Kepuasan Pelanggan",
+        "icon": "⭐"
+      },
+      {
+        "number": "5+",
+        "label": "Tahun Pengalaman",
+        "icon": "🏆"
+      },
+      {
+        "number": "24/7",
+        "label": "Layanan Konsultasi",
+        "icon": "💬"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Daftar Harga",
+    "subtitle": "Harga transparan untuk semua layanan kami",
+    "note": "Harga dapat berubah sesuai kondisi handphone. Hubungi kami untuk estimasi yang lebih akurat.",
+    "categories": [
+      {
+        "name": "Perbaikan Layar",
+        "items": [
+          {
+            "service": "Ganti Layar iPhone 11/12/13",
+            "price": "Rp 1.500.000",
+            "warranty": "3 bulan"
+          },
+          {
+            "service": "Ganti Layar Samsung Galaxy",
+            "price": "Rp 800.000",
+            "warranty": "3 bulan"
+          },
+          {
+            "service": "Ganti Layar Xiaomi/Oppo/Vivo",
+            "price": "Rp 600.000",
+            "warranty": "3 bulan"
+          }
+        ]
+      },
+      {
+        "name": "Perbaikan Baterai",
+        "items": [
+          {
+            "service": "Ganti Baterai iPhone",
+            "price": "Rp 500.000",
+            "warranty": "6 bulan"
+          },
+          {
+            "service": "Ganti Baterai Android",
+            "price": "Rp 300.000",
+            "warranty": "6 bulan"
+          }
+        ]
+      },
+      {
+        "name": "Perbaikan Lainnya",
+        "items": [
+          {
+            "service": "Perbaikan Charging Port",
+            "price": "Rp 200.000 - 400.000",
+            "warranty": "1 bulan"
+          },
+          {
+            "service": "Perbaikan Kamera",
+            "price": "Rp 300.000 - 600.000",
+            "warranty": "3 bulan"
+          },
+          {
+            "service": "Perbaikan Software",
+            "price": "Rp 150.000",
+            "warranty": "1 bulan"
+          }
+        ]
+      }
+    ]
+  },
+  "locations": {
+    "title": "Lokasi Layanan Kami",
+    "subtitle": "Kami melayani di berbagai daerah di Bali",
+    "items": [
+      {
+        "name": "Klungkung",
+        "description": "Service handphone terpercaya di Klungkung",
+        "address": "Jl. Raya Klungkung, Klungkung, Bali",
+        "phone": "0851-6277-3332",
+        "hours": "Senin - Minggu: 09:00 - 18:00 WITA",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5!2d115.4!3d-8.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMzAnMDAuMCJTIDExNcKwMjQnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890",
+        "latitude": -8.5,
+        "longitude": 115.4
+      },
+      {
+        "name": "Amlapura",
+        "description": "Layanan cepat dan profesional di Amlapura",
+        "address": "Jl. Raya Amlapura, Karangasem, Bali",
+        "phone": "0851-6277-3332",
+        "hours": "Senin - Minggu: 09:00 - 18:00 WITA",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5!2d115.6!3d-8.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMjQnMDAuMCJTIDExNcKwMzYnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890",
+        "latitude": -8.4,
+        "longitude": 115.6
+      },
+      {
+        "name": "Denpasar",
+        "description": "Service center utama di Denpasar",
+        "address": "Jl. Raya Denpasar, Denpasar, Bali",
+        "phone": "0851-6277-3332",
+        "hours": "Senin - Minggu: 08:00 - 20:00 WITA",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5!2d115.2!3d-8.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMzYnMDAuMCJTIDExNcKwMTInMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890",
+        "latitude": -8.6,
+        "longitude": 115.2
+      },
+      {
+        "name": "Gilimanuk",
+        "description": "Layanan handphone di Gilimanuk",
+        "address": "Jl. Raya Gilimanuk, Jembrana, Bali",
+        "phone": "0851-6277-3332",
+        "hours": "Senin - Minggu: 09:00 - 17:00 WITA",
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5!2d114.4!3d-8.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMDYnMDAuMCJTIDExNMKwMjQnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890",
+        "latitude": -8.1,
+        "longitude": 114.4
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami siap membantu perbaikan handphone Anda",
+    "whatsapp": "0851-6277-3332",
+    "message": "Halo, saya ingin konsultasi tentang service handphone"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "description": "Kami adalah tim profesional yang berpengalaman dalam perbaikan berbagai merek handphone. Dengan pengalaman bertahun-tahun, kami menjamin kualitas service yang terbaik dengan harga yang terjangkau.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+  },
+  "whyChooseUs": {
+    "title": "Mengapa Pilih Kami?",
+    "subtitle": "Keunggulan yang membuat kami berbeda",
+    "items": [
+      {
+        "title": "Teknisi Berpengalaman",
+        "description": "Tim teknisi profesional dengan pengalaman bertahun-tahun",
+        "icon": "👨‍🔧"
+      },
+      {
+        "title": "Garansi Terjamin",
+        "description": "Semua perbaikan dilengkapi dengan garansi resmi",
+        "icon": "✅"
+      },
+      {
+        "title": "Harga Terjangkau",
+        "description": "Harga kompetitif dan transparan tanpa biaya tersembunyi",
+        "icon": "💰"
+      },
+      {
+        "title": "Service Cepat",
+        "description": "Perbaikan cepat tanpa menunggu lama",
+        "icon": "⚡"
+      }
+    ]
+  },
+  "process": {
+    "title": "Cara Kerja Kami",
+    "subtitle": "Proses perbaikan yang mudah dan cepat",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Konsultasi",
+        "description": "Hubungi kami via WhatsApp untuk konsultasi masalah handphone Anda",
+        "icon": "💬"
+      },
+      {
+        "step": 2,
+        "title": "Diagnosa",
+        "description": "Tim kami akan mendiagnosa masalah dan memberikan estimasi biaya",
+        "icon": "🔍"
+      },
+      {
+        "step": 3,
+        "title": "Perbaikan",
+        "description": "Proses perbaikan dilakukan oleh teknisi berpengalaman",
+        "icon": "🔧"
+      },
+      {
+        "step": 4,
+        "title": "Selesai",
+        "description": "Handphone siap digunakan dengan garansi perbaikan",
+        "icon": "✨"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimoni Pelanggan",
+    "subtitle": "Apa kata pelanggan tentang layanan kami",
+    "items": [
+      {
+        "name": "Budi Santoso",
+        "location": "Denpasar",
+        "rating": 5,
+        "comment": "Service sangat cepat dan hasilnya memuaskan. Layar iPhone saya sudah seperti baru lagi!",
+        "image": "https://ui-avatars.com/api/?name=Budi+Santoso&background=random"
+      },
+      {
+        "name": "Sari Dewi",
+        "location": "Klungkung",
+        "rating": 5,
+        "comment": "Harga terjangkau dan teknisi sangat profesional. Recommended!",
+        "image": "https://ui-avatars.com/api/?name=Sari+Dewi&background=random"
+      },
+      {
+        "name": "Made Wijaya",
+        "location": "Amlapura",
+        "rating": 5,
+        "comment": "Baterai handphone saya sudah tahan lama lagi. Terima kasih!",
+        "image": "https://ui-avatars.com/api/?name=Made+Wijaya&background=random"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galeri Kami",
+    "subtitle": "Galeri hasil perbaikan dan aktivitas service kami",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&q=80",
+        "caption": "Perbaikan Layar iPhone"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=600&q=80",
+        "caption": "Service Center Modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80",
+        "caption": "Teknisi Profesional"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+        "caption": "Perbaikan Baterai"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+        "caption": "Workshop Service"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&q=80",
+        "caption": "Perbaikan Motherboard"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan Umum",
+    "subtitle": "Jawaban untuk pertanyaan yang sering diajukan",
+    "items": [
+      {
+        "question": "Berapa lama waktu perbaikan?",
+        "answer": "Waktu perbaikan bervariasi tergantung jenis kerusakan. Umumnya 1-3 jam untuk perbaikan ringan, dan 1-2 hari untuk perbaikan kompleks."
+      },
+      {
+        "question": "Apakah ada garansi?",
+        "answer": "Ya, semua perbaikan dilengkapi dengan garansi. Garansi bervariasi tergantung jenis perbaikan, minimal 30 hari."
+      },
+      {
+        "question": "Merek handphone apa saja yang bisa diperbaiki?",
+        "answer": "Kami melayani semua merek handphone populer seperti iPhone, Samsung, Xiaomi, Oppo, Vivo, Realme, dan lainnya."
+      },
+      {
+        "question": "Apakah spare part original?",
+        "answer": "Kami menyediakan spare part original dan berkualitas tinggi. Kami akan informasikan pilihan spare part sebelum perbaikan."
+      },
+      {
+        "question": "Bagaimana cara booking service?",
+        "answer": "Anda bisa menghubungi kami via WhatsApp untuk booking atau langsung datang ke lokasi service kami."
+      }
+    ]
+  }
+}
+
