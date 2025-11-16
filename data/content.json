@@ -1,49 +1,49 @@
 {
   "hero": {
-    "title": "Service Handphone Terpercaya di Bali",
-    "subtitle": "Perbaikan cepat, berkualitas, dan harga terjangkau untuk semua merek handphone",
-    "cta": "Hubungi Kami Sekarang",
+    "title": "Handphone Rusak? Perbaikan Cepat & Bergaransi di Bali",
+    "subtitle": "Dapatkan handphone Anda kembali normal dalam hitungan jam dengan teknisi profesional berpengalaman 5+ tahun. Lebih dari 500 handphone berhasil diperbaiki dengan kepuasan 98%!",
+    "cta": "Konsultasi Gratis Sekarang",
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&q=80"
   },
   "services": {
-    "title": "Layanan Kami",
-    "subtitle": "Kami menyediakan berbagai layanan perbaikan handphone profesional",
+    "title": "Layanan Perbaikan Handphone Profesional",
+    "subtitle": "Solusi lengkap untuk semua masalah handphone Anda dengan garansi terjamin dan hasil seperti baru",
     "items": [
       {
         "title": "Perbaikan Layar",
-        "description": "Ganti layar rusak dengan cepat dan berkualitas",
+        "description": "Layar kembali jernih seperti baru dengan garansi 3 bulan - selesai dalam 1-2 jam. Spare part original berkualitas premium.",
         "icon": "📱"
       },
       {
         "title": "Perbaikan Baterai",
-        "description": "Ganti baterai yang sudah tidak optimal",
+        "description": "Baterai tahan lama kembali normal dengan garansi 6 bulan. Daya tahan optimal seperti handphone baru.",
         "icon": "🔋"
       },
       {
         "title": "Perbaikan Software",
-        "description": "Update, reset, dan perbaikan masalah software",
+        "description": "Update, reset, dan perbaikan masalah software dengan aman. Data Anda tetap terjaga dan handphone kembali lancar.",
         "icon": "💻"
       },
       {
         "title": "Perbaikan Charging Port",
-        "description": "Perbaikan port charging yang rusak",
+        "description": "Port charging kembali normal, handphone bisa di-charge dengan sempurna. Garansi 1 bulan untuk ketenangan pikiran Anda.",
         "icon": "🔌"
       },
       {
         "title": "Perbaikan Kamera",
-        "description": "Perbaikan dan ganti kamera yang bermasalah",
+        "description": "Kamera kembali tajam dan jernih seperti semula. Foto dan video berkualitas tinggi kembali normal.",
         "icon": "📷"
       },
       {
         "title": "Perbaikan Motherboard",
-        "description": "Perbaikan komponen utama handphone",
+        "description": "Perbaikan komponen utama oleh teknisi ahli berpengalaman. Handphone kembali berfungsi optimal dengan garansi terjamin.",
         "icon": "🔧"
       }
     ]
   },
   "stats": {
     "title": "Pencapaian Kami",
-    "subtitle": "Angka yang membuktikan kualitas layanan kami",
+    "subtitle": "Angka nyata yang membuktikan komitmen kami memberikan layanan terbaik",
     "items": [
       {
         "number": "500+",
@@ -68,9 +68,9 @@
     ]
   },
   "pricing": {
-    "title": "Daftar Harga",
-    "subtitle": "Harga transparan untuk semua layanan kami",
-    "note": "Harga dapat berubah sesuai kondisi handphone. Hubungi kami untuk estimasi yang lebih akurat.",
+    "title": "Daftar Harga Transparan",
+    "subtitle": "Harga kompetitif dengan kualitas premium - lebih hemat 30% dari service center resmi",
+    "note": "Harga dapat berubah sesuai kondisi handphone. Hubungi kami untuk estimasi gratis yang lebih akurat. Semua perbaikan dilengkapi garansi resmi.",
     "categories": [
       {
         "name": "Perbaikan Layar",
@@ -176,95 +176,95 @@
     ]
   },
   "contact": {
-    "title": "Hubungi Kami",
-    "subtitle": "Kami siap membantu perbaikan handphone Anda",
+    "title": "Hubungi Kami Sekarang",
+    "subtitle": "Konsultasi gratis via WhatsApp - dapatkan estimasi biaya dalam 5 menit tanpa perlu datang ke lokasi",
     "whatsapp": "0851-6277-3332",
-    "message": "Halo, saya ingin konsultasi tentang service handphone"
+    "message": "Halo, saya ingin konsultasi gratis tentang service handphone"
   },
   "about": {
     "title": "Tentang Kami",
-    "description": "Kami adalah tim profesional yang berpengalaman dalam perbaikan berbagai merek handphone. Dengan pengalaman bertahun-tahun, kami menjamin kualitas service yang terbaik dengan harga yang terjangkau.",
+    "description": "Lebih dari 500 handphone berhasil kami perbaiki dengan tingkat kepuasan 98%. Kami adalah service center terpercaya di Bali dengan teknisi bersertifikat dan spare part original. Dengan pengalaman 5+ tahun, komitmen kami adalah memberikan perbaikan cepat, berkualitas, dan harga terjangkau - lebih hemat 30% dari service center resmi dengan garansi yang sama.",
     "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
   },
   "whyChooseUs": {
     "title": "Mengapa Pilih Kami?",
-    "subtitle": "Keunggulan yang membuat kami berbeda",
+    "subtitle": "Keunggulan eksklusif yang membuat kami berbeda dari yang lain",
     "items": [
       {
-        "title": "Teknisi Berpengalaman",
-        "description": "Tim teknisi profesional dengan pengalaman bertahun-tahun",
+        "title": "Teknisi Berpengalaman & Bersertifikat",
+        "description": "Tim teknisi profesional bersertifikat dengan pengalaman 5+ tahun menangani ribuan perbaikan sukses. Setiap teknisi terlatih khusus untuk berbagai merek handphone.",
         "icon": "👨‍🔧"
       },
       {
-        "title": "Garansi Terjamin",
-        "description": "Semua perbaikan dilengkapi dengan garansi resmi",
+        "title": "Garansi Resmi Terjamin",
+        "description": "Semua perbaikan dilengkapi dengan garansi resmi 1-6 bulan tergantung jenis perbaikan. Jika ada masalah, kami perbaiki kembali tanpa biaya tambahan.",
         "icon": "✅"
       },
       {
-        "title": "Harga Terjangkau",
-        "description": "Harga kompetitif dan transparan tanpa biaya tersembunyi",
+        "title": "Harga Terjangkau & Transparan",
+        "description": "Harga kompetitif dan transparan tanpa biaya tersembunyi. Lebih hemat 30% dari service center resmi dengan kualitas yang sama bahkan lebih baik.",
         "icon": "💰"
       },
       {
-        "title": "Service Cepat",
-        "description": "Perbaikan cepat tanpa menunggu lama",
+        "title": "Service Super Cepat",
+        "description": "Perbaikan ringan selesai dalam 1-2 jam, perbaikan kompleks maksimal 1-2 hari. Tidak perlu menunggu lama, handphone Anda cepat kembali normal.",
         "icon": "⚡"
       }
     ]
   },
   "process": {
     "title": "Cara Kerja Kami",
-    "subtitle": "Proses perbaikan yang mudah dan cepat",
+    "subtitle": "Proses perbaikan yang mudah, cepat, dan tanpa ribet - hanya 4 langkah sederhana",
     "steps": [
       {
         "step": 1,
-        "title": "Konsultasi",
-        "description": "Hubungi kami via WhatsApp untuk konsultasi masalah handphone Anda",
+        "title": "Konsultasi Gratis",
+        "description": "Chat WhatsApp kami sekarang - dapatkan estimasi biaya dalam 5 menit tanpa perlu datang ke lokasi. Konsultasi gratis, tidak ada biaya apapun!",
         "icon": "💬"
       },
       {
         "step": 2,
-        "title": "Diagnosa",
-        "description": "Tim kami akan mendiagnosa masalah dan memberikan estimasi biaya",
+        "title": "Diagnosa Profesional",
+        "description": "Tim teknisi ahli akan mendiagnosa masalah secara detail dan memberikan estimasi biaya yang transparan. Anda setuju baru kami perbaiki.",
         "icon": "🔍"
       },
       {
         "step": 3,
-        "title": "Perbaikan",
-        "description": "Proses perbaikan dilakukan oleh teknisi berpengalaman",
+        "title": "Perbaikan Cepat",
+        "description": "Proses perbaikan dilakukan oleh teknisi berpengalaman dengan spare part original. Perbaikan ringan selesai dalam 1-2 jam!",
         "icon": "🔧"
       },
       {
         "step": 4,
-        "title": "Selesai",
-        "description": "Handphone siap digunakan dengan garansi perbaikan",
+        "title": "Selesai & Bergaransi",
+        "description": "Handphone siap digunakan seperti baru dengan garansi resmi 1-6 bulan. Jika ada masalah, kami perbaiki kembali gratis!",
         "icon": "✨"
       }
     ]
   },
   "testimonials": {
     "title": "Testimoni Pelanggan",
-    "subtitle": "Apa kata pelanggan tentang layanan kami",
+    "subtitle": "Ribuan pelanggan puas telah mempercayakan handphone mereka kepada kami",
     "items": [
       {
         "name": "Budi Santoso",
         "location": "Denpasar",
         "rating": 5,
-        "comment": "Service sangat cepat dan hasilnya memuaskan. Layar iPhone saya sudah seperti baru lagi!",
+        "comment": "Layar iPhone 11 saya pecah total, tapi setelah diperbaiki di sini, kembali seperti baru! Proses cepat hanya 2 jam dan harganya jauh lebih murah dari service center resmi (hemat Rp 500rb). Teknisinya sangat profesional dan ramah. Highly recommended!",
         "image": "https://ui-avatars.com/api/?name=Budi+Santoso&background=random"
       },
       {
         "name": "Sari Dewi",
         "location": "Klungkung",
         "rating": 5,
-        "comment": "Harga terjangkau dan teknisi sangat profesional. Recommended!",
+        "comment": "Awalnya ragu karena harga terjangkau, tapi ternyata kualitasnya luar biasa! Baterai Samsung saya yang sudah drop sekarang tahan seharian penuh. Garansi 6 bulan juga membuat saya tenang. Teknisi sangat detail menjelaskan prosesnya. Pokoknya puas banget!",
         "image": "https://ui-avatars.com/api/?name=Sari+Dewi&background=random"
       },
       {
         "name": "Made Wijaya",
         "location": "Amlapura",
         "rating": 5,
-        "comment": "Baterai handphone saya sudah tahan lama lagi. Terima kasih!",
+        "comment": "Charging port Xiaomi saya rusak, tidak bisa charge sama sekali. Setelah diperbaiki di sini, langsung normal lagi! Proses cepat, harga terjangkau, dan ada garansi. Yang paling penting, spare part original. Terima kasih banyak, service yang sangat memuaskan!",
         "image": "https://ui-avatars.com/api/?name=Made+Wijaya&background=random"
       }
     ]
@@ -301,27 +301,35 @@
   },
   "faq": {
     "title": "Pertanyaan Umum",
-    "subtitle": "Jawaban untuk pertanyaan yang sering diajukan",
+    "subtitle": "Jawaban lengkap untuk pertanyaan yang sering diajukan pelanggan",
     "items": [
       {
         "question": "Berapa lama waktu perbaikan?",
-        "answer": "Waktu perbaikan bervariasi tergantung jenis kerusakan. Umumnya 1-3 jam untuk perbaikan ringan, dan 1-2 hari untuk perbaikan kompleks."
+        "answer": "Waktu perbaikan bervariasi tergantung jenis kerusakan. Perbaikan ringan seperti ganti layar atau baterai selesai dalam 1-2 jam. Perbaikan kompleks seperti motherboard maksimal 1-2 hari. Kami selalu menginformasikan estimasi waktu sebelum memulai perbaikan."
       },
       {
         "question": "Apakah ada garansi?",
-        "answer": "Ya, semua perbaikan dilengkapi dengan garansi. Garansi bervariasi tergantung jenis perbaikan, minimal 30 hari."
+        "answer": "Ya, semua perbaikan dilengkapi dengan garansi resmi. Garansi bervariasi tergantung jenis perbaikan: layar dan kamera 3 bulan, baterai 6 bulan, charging port dan software 1 bulan. Jika ada masalah dalam masa garansi, kami perbaiki kembali tanpa biaya tambahan."
       },
       {
         "question": "Merek handphone apa saja yang bisa diperbaiki?",
-        "answer": "Kami melayani semua merek handphone populer seperti iPhone, Samsung, Xiaomi, Oppo, Vivo, Realme, dan lainnya."
+        "answer": "Kami melayani semua merek handphone populer seperti iPhone (semua seri), Samsung Galaxy, Xiaomi, Oppo, Vivo, Realme, OnePlus, dan merek lainnya. Jika Anda ragu, silakan konsultasi gratis via WhatsApp terlebih dahulu."
       },
       {
         "question": "Apakah spare part original?",
-        "answer": "Kami menyediakan spare part original dan berkualitas tinggi. Kami akan informasikan pilihan spare part sebelum perbaikan."
+        "answer": "Ya, kami menyediakan spare part original dan berkualitas tinggi. Kami akan informasikan pilihan spare part (original atau compatible berkualitas) beserta harganya sebelum perbaikan. Anda bisa memilih sesuai kebutuhan dan budget."
       },
       {
         "question": "Bagaimana cara booking service?",
-        "answer": "Anda bisa menghubungi kami via WhatsApp untuk booking atau langsung datang ke lokasi service kami."
+        "answer": "Sangat mudah! Anda bisa menghubungi kami via WhatsApp untuk konsultasi gratis dan booking, atau langsung datang ke lokasi service kami. Untuk booking via WhatsApp, Anda akan mendapat estimasi biaya dalam 5 menit tanpa perlu datang ke lokasi terlebih dahulu."
+      },
+      {
+        "question": "Apakah data saya aman?",
+        "answer": "Sangat aman! Kami memiliki protokol keamanan data yang ketat. Untuk perbaikan software, kami akan backup data Anda terlebih dahulu. Data pelanggan selalu kami jaga kerahasiaannya dan tidak akan diakses tanpa izin."
+      },
+      {
+        "question": "Berapa biaya konsultasi?",
+        "answer": "Konsultasi sepenuhnya GRATIS! Anda bisa chat WhatsApp kami kapan saja untuk konsultasi masalah handphone dan mendapatkan estimasi biaya tanpa dipungut biaya apapun. Biaya hanya dikenakan jika Anda setuju untuk melakukan perbaikan."
       }
     ]
   }
