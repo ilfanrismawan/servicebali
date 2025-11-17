@@ -55,10 +55,39 @@ export default function HomeClient({ content }: HomeClientProps) {
       { threshold: 0.1, rootMargin: '0px 0px -100px 0px' }
     );
 
-    const sections = document.querySelectorAll('[data-animate]');
-    sections.forEach((section) => observer.observe(section));
+    const observeSections = () => {
+      const sections = document.querySelectorAll('[data-animate]');
+      sections.forEach((section) => {
+        observer.observe(section);
+        // Check if section is already in viewport
+        const rect = section.getBoundingClientRect();
+        const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+        if (isInViewport && section.id) {
+          setVisibleSections((prev) => new Set(prev).add(section.id));
+        }
+      });
+    };
+
+    // Initial observation
+    observeSections();
+
+    // Re-observe after a delay to catch lazy-loaded components
+    const timeoutId = setTimeout(observeSections, 100);
+    
+    // Also observe on DOM mutations (for lazy-loaded components)
+    const mutationObserver = new MutationObserver(() => {
+      observeSections();
+    });
+    
+    mutationObserver.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
 
     return () => {
+      clearTimeout(timeoutId);
+      mutationObserver.disconnect();
+      const sections = document.querySelectorAll('[data-animate]');
       sections.forEach((section) => observer.unobserve(section));
     };
   }, [content]);

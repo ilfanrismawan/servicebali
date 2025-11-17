@@ -19,7 +19,7 @@ export default function Testimonials({ content, visibleSections }: TestimonialsP
     >
       <div className="max-w-7xl mx-auto">
         <div className={`text-center mb-16 ${
-          visibleSections.has('testimonials-section') ? 'animate-fade-in-up' : 'opacity-0'
+          visibleSections.has('testimonials-section') ? 'animate-fade-in-up' : ''
         }`}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {content.title}
@@ -33,7 +33,7 @@ export default function Testimonials({ content, visibleSections }: TestimonialsP
             <div
               key={index}
               className={`bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 ${
-                visibleSections.has('testimonials-section') ? 'animate-scale-in' : 'opacity-0'
+                visibleSections.has('testimonials-section') ? 'animate-scale-in' : ''
               }`}
               style={{ animationDelay: `${index * 0.15}s` }}
             >

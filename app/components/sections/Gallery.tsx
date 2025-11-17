@@ -19,7 +19,7 @@ export default function Gallery({ content, visibleSections }: GalleryProps) {
     >
       <div className="max-w-7xl mx-auto">
         <div className={`text-center mb-16 ${
-          visibleSections.has('gallery-section') ? 'animate-fade-in-up' : 'opacity-0'
+          visibleSections.has('gallery-section') ? 'animate-fade-in-up' : ''
         }`}>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {content.title}
@@ -33,7 +33,7 @@ export default function Gallery({ content, visibleSections }: GalleryProps) {
             <div
               key={index}
               className={`relative h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-110 hover:rotate-1 group ${
-                visibleSections.has('gallery-section') ? 'animate-fade-in-up' : 'opacity-0'
+                visibleSections.has('gallery-section') ? 'animate-fade-in-up' : ''
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >

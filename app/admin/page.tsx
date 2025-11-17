@@ -240,13 +240,13 @@ export default function AdminPage() {
           <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center">Admin Login</h1>
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-gray-800 mb-2">
                 Password
               </label>
               <input
                 type="password"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                onChange={(e: any) => setPassword(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 placeholder="Masukkan password"
                 required
@@ -321,7 +321,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.hero.title}
-                onChange={(e) => updateContent(['hero', 'title'], e.target.value)}
+                onChange={(e: any) => updateContent(['hero', 'title'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -329,7 +329,7 @@ export default function AdminPage() {
               <label className="block text-sm font-medium text-gray-700 mb-2">Subtitle</label>
               <textarea
                 value={content.hero.subtitle}
-                onChange={(e) => updateContent(['hero', 'subtitle'], e.target.value)}
+                onChange={(e: any) => updateContent(['hero', 'subtitle'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 rows={3}
               />
@@ -339,7 +339,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.hero.cta}
-                onChange={(e) => updateContent(['hero', 'cta'], e.target.value)}
+                onChange={(e: any) => updateContent(['hero', 'cta'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -348,7 +348,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.hero.image || ''}
-                onChange={(e) => updateContent(['hero', 'image'], e.target.value)}
+                onChange={(e: any) => updateContent(['hero', 'image'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 placeholder="https://example.com/image.jpg"
               />
@@ -366,7 +366,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.about.title}
-                onChange={(e) => updateContent(['about', 'title'], e.target.value)}
+                onChange={(e: any) => updateContent(['about', 'title'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -374,7 +374,7 @@ export default function AdminPage() {
               <label className="block text-sm font-medium text-gray-700 mb-2">Description</label>
               <textarea
                 value={content.about.description}
-                onChange={(e) => updateContent(['about', 'description'], e.target.value)}
+                onChange={(e: any) => updateContent(['about', 'description'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 rows={4}
               />
@@ -384,7 +384,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.about.image || ''}
-                onChange={(e) => updateContent(['about', 'image'], e.target.value)}
+                onChange={(e: any) => updateContent(['about', 'image'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 placeholder="https://example.com/image.jpg"
               />
@@ -402,7 +402,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.services.title}
-                onChange={(e) => updateContent(['services', 'title'], e.target.value)}
+                onChange={(e: any) => updateContent(['services', 'title'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -411,7 +411,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.services.subtitle}
-                onChange={(e) => updateContent(['services', 'subtitle'], e.target.value)}
+                onChange={(e: any) => updateContent(['services', 'subtitle'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -434,7 +434,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.icon}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.services.items];
                         newItems[index].icon = e.target.value;
                         updateContent(['services', 'items'], newItems);
@@ -448,7 +448,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.title}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.services.items];
                         newItems[index].title = e.target.value;
                         updateContent(['services', 'items'], newItems);
@@ -460,7 +460,7 @@ export default function AdminPage() {
                     <label className="block text-sm font-medium text-gray-700 mb-1">Description</label>
                     <textarea
                       value={item.description}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.services.items];
                         newItems[index].description = e.target.value;
                         updateContent(['services', 'items'], newItems);
@@ -491,7 +491,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.stats.title}
-                  onChange={(e) => updateContent(['stats', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['stats', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -500,7 +500,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.stats.subtitle}
-                  onChange={(e) => updateContent(['stats', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['stats', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -526,7 +526,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.icon}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.stats!.items];
                           newItems[index].icon = e.target.value;
                           updateContent(['stats', 'items'], newItems);
@@ -539,7 +539,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.number}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.stats!.items];
                           newItems[index].number = e.target.value;
                           updateContent(['stats', 'items'], newItems);
@@ -553,7 +553,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.label}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.stats!.items];
                           newItems[index].label = e.target.value;
                           updateContent(['stats', 'items'], newItems);
@@ -588,7 +588,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.pricing.title}
-                  onChange={(e) => updateContent(['pricing', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['pricing', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -597,7 +597,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.pricing.subtitle}
-                  onChange={(e) => updateContent(['pricing', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['pricing', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -605,7 +605,7 @@ export default function AdminPage() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">Catatan</label>
                 <textarea
                   value={content.pricing.note}
-                  onChange={(e) => updateContent(['pricing', 'note'], e.target.value)}
+                  onChange={(e: any) => updateContent(['pricing', 'note'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                   rows={2}
                 />
@@ -632,7 +632,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={category.name}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newCategories = [...content.pricing!.categories];
                           newCategories[catIndex].name = e.target.value;
                           updateContent(['pricing', 'categories'], newCategories);
@@ -660,7 +660,7 @@ export default function AdminPage() {
                             <input
                               type="text"
                               value={item.service}
-                              onChange={(e) => {
+                              onChange={(e: any) => {
                                 const newCategories = [...content.pricing!.categories];
                                 newCategories[catIndex].items[itemIndex].service = e.target.value;
                                 updateContent(['pricing', 'categories'], newCategories);
@@ -671,7 +671,7 @@ export default function AdminPage() {
                             <input
                               type="text"
                               value={item.price}
-                              onChange={(e) => {
+                              onChange={(e: any) => {
                                 const newCategories = [...content.pricing!.categories];
                                 newCategories[catIndex].items[itemIndex].price = e.target.value;
                                 updateContent(['pricing', 'categories'], newCategories);
@@ -682,7 +682,7 @@ export default function AdminPage() {
                             <input
                               type="text"
                               value={item.warranty}
-                              onChange={(e) => {
+                              onChange={(e: any) => {
                                 const newCategories = [...content.pricing!.categories];
                                 newCategories[catIndex].items[itemIndex].warranty = e.target.value;
                                 updateContent(['pricing', 'categories'], newCategories);
@@ -729,7 +729,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.locations.title}
-                onChange={(e) => updateContent(['locations', 'title'], e.target.value)}
+                onChange={(e: any) => updateContent(['locations', 'title'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -738,7 +738,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.locations.subtitle}
-                onChange={(e) => updateContent(['locations', 'subtitle'], e.target.value)}
+                onChange={(e: any) => updateContent(['locations', 'subtitle'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -761,7 +761,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.name}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].name = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -773,7 +773,7 @@ export default function AdminPage() {
                     <label className="block text-sm font-medium text-gray-700 mb-1">Description</label>
                     <textarea
                       value={item.description}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].description = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -787,7 +787,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.address || ''}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].address = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -800,7 +800,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.phone || ''}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].phone = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -813,7 +813,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.hours || ''}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].hours = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -827,7 +827,7 @@ export default function AdminPage() {
                     <input
                       type="text"
                       value={item.mapUrl || ''}
-                      onChange={(e) => {
+                      onChange={(e: any) => {
                         const newItems = [...content.locations.items];
                         newItems[index].mapUrl = e.target.value;
                         updateContent(['locations', 'items'], newItems);
@@ -859,7 +859,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.whyChooseUs.title}
-                  onChange={(e) => updateContent(['whyChooseUs', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['whyChooseUs', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -868,7 +868,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.whyChooseUs.subtitle}
-                  onChange={(e) => updateContent(['whyChooseUs', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['whyChooseUs', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -894,7 +894,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.icon}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.whyChooseUs!.items];
                           newItems[index].icon = e.target.value;
                           updateContent(['whyChooseUs', 'items'], newItems);
@@ -907,7 +907,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.title}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.whyChooseUs!.items];
                           newItems[index].title = e.target.value;
                           updateContent(['whyChooseUs', 'items'], newItems);
@@ -919,7 +919,7 @@ export default function AdminPage() {
                       <label className="block text-sm font-medium text-gray-700 mb-1">Description</label>
                       <textarea
                         value={item.description}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.whyChooseUs!.items];
                           newItems[index].description = e.target.value;
                           updateContent(['whyChooseUs', 'items'], newItems);
@@ -954,7 +954,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.process.title}
-                  onChange={(e) => updateContent(['process', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['process', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -963,7 +963,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.process.subtitle}
-                  onChange={(e) => updateContent(['process', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['process', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -989,7 +989,7 @@ export default function AdminPage() {
                       <input
                         type="number"
                         value={step.step}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newSteps = [...content.process!.steps];
                           newSteps[index].step = parseInt(e.target.value);
                           updateContent(['process', 'steps'], newSteps);
@@ -1002,7 +1002,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={step.icon}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newSteps = [...content.process!.steps];
                           newSteps[index].icon = e.target.value;
                           updateContent(['process', 'steps'], newSteps);
@@ -1015,7 +1015,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={step.title}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newSteps = [...content.process!.steps];
                           newSteps[index].title = e.target.value;
                           updateContent(['process', 'steps'], newSteps);
@@ -1027,7 +1027,7 @@ export default function AdminPage() {
                       <label className="block text-sm font-medium text-gray-700 mb-1">Description</label>
                       <textarea
                         value={step.description}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newSteps = [...content.process!.steps];
                           newSteps[index].description = e.target.value;
                           updateContent(['process', 'steps'], newSteps);
@@ -1062,7 +1062,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.testimonials.title}
-                  onChange={(e) => updateContent(['testimonials', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['testimonials', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1071,7 +1071,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.testimonials.subtitle}
-                  onChange={(e) => updateContent(['testimonials', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['testimonials', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1097,7 +1097,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.name}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.testimonials!.items];
                           newItems[index].name = e.target.value;
                           updateContent(['testimonials', 'items'], newItems);
@@ -1110,7 +1110,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.location}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.testimonials!.items];
                           newItems[index].location = e.target.value;
                           updateContent(['testimonials', 'items'], newItems);
@@ -1125,7 +1125,7 @@ export default function AdminPage() {
                         min="1"
                         max="5"
                         value={item.rating}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.testimonials!.items];
                           newItems[index].rating = parseInt(e.target.value);
                           updateContent(['testimonials', 'items'], newItems);
@@ -1137,7 +1137,7 @@ export default function AdminPage() {
                       <label className="block text-sm font-medium text-gray-700 mb-1">Komentar</label>
                       <textarea
                         value={item.comment}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.testimonials!.items];
                           newItems[index].comment = e.target.value;
                           updateContent(['testimonials', 'items'], newItems);
@@ -1151,7 +1151,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.image}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.testimonials!.items];
                           newItems[index].image = e.target.value;
                           updateContent(['testimonials', 'items'], newItems);
@@ -1186,7 +1186,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.gallery.title}
-                  onChange={(e) => updateContent(['gallery', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['gallery', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1195,7 +1195,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.gallery.subtitle}
-                  onChange={(e) => updateContent(['gallery', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['gallery', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1221,7 +1221,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={image.url}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newImages = [...content.gallery!.images];
                           newImages[index].url = e.target.value;
                           updateContent(['gallery', 'images'], newImages);
@@ -1235,7 +1235,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={image.caption}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newImages = [...content.gallery!.images];
                           newImages[index].caption = e.target.value;
                           updateContent(['gallery', 'images'], newImages);
@@ -1269,7 +1269,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.faq.title}
-                  onChange={(e) => updateContent(['faq', 'title'], e.target.value)}
+                  onChange={(e: any) => updateContent(['faq', 'title'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1278,7 +1278,7 @@ export default function AdminPage() {
                 <input
                   type="text"
                   value={content.faq.subtitle}
-                  onChange={(e) => updateContent(['faq', 'subtitle'], e.target.value)}
+                  onChange={(e: any) => updateContent(['faq', 'subtitle'], e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 />
               </div>
@@ -1304,7 +1304,7 @@ export default function AdminPage() {
                       <input
                         type="text"
                         value={item.question}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.faq!.items];
                           newItems[index].question = e.target.value;
                           updateContent(['faq', 'items'], newItems);
@@ -1316,7 +1316,7 @@ export default function AdminPage() {
                       <label className="block text-sm font-medium text-gray-700 mb-1">Jawaban</label>
                       <textarea
                         value={item.answer}
-                        onChange={(e) => {
+                        onChange={(e: any) => {
                           const newItems = [...content.faq!.items];
                           newItems[index].answer = e.target.value;
                           updateContent(['faq', 'items'], newItems);
@@ -1350,7 +1350,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.contact.title}
-                onChange={(e) => updateContent(['contact', 'title'], e.target.value)}
+                onChange={(e: any) => updateContent(['contact', 'title'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -1359,7 +1359,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.contact.subtitle}
-                onChange={(e) => updateContent(['contact', 'subtitle'], e.target.value)}
+                onChange={(e: any) => updateContent(['contact', 'subtitle'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -1368,7 +1368,7 @@ export default function AdminPage() {
               <input
                 type="text"
                 value={content.contact.whatsapp}
-                onChange={(e) => updateContent(['contact', 'whatsapp'], e.target.value)}
+                onChange={(e: any) => updateContent(['contact', 'whatsapp'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -1376,7 +1376,7 @@ export default function AdminPage() {
               <label className="block text-sm font-medium text-gray-700 mb-2">Pesan WhatsApp Default</label>
               <textarea
                 value={content.contact.message}
-                onChange={(e) => updateContent(['contact', 'message'], e.target.value)}
+                onChange={(e: any) => updateContent(['contact', 'message'], e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 rows={3}
               />
